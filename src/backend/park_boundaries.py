@@ -14,7 +14,7 @@ ALGOLIA_APPLICATION_ID = os.getenv('ALGOLIA_APPLICATION_ID')
 
 def get_park_names():
     parks = {}
-    with open('../../data/parks/india.csv', newline='') as csvfile:
+    with open('data/parks/india.csv', newline='') as csvfile:
         rows = csv.reader(csvfile)
         for row in rows:
             parks[row[0]] = None
@@ -25,9 +25,9 @@ def get_geojson_for_parks(parks):
     for park in parks:
         try:
             geo = ox.geocode_to_gdf(park)
+            parks[park] = geo.to_json()
         except ValueError as v:
             print(v)
-        parks[park] = geo.to_json()
     return parks
 
 
