@@ -1,9 +1,0 @@
-Nominatim geocoder returned 0 results for query "Bison (Rajbari) National Park"
-Nominatim geocoder returned 0 results for query "Buxa National Park (Tiger Reserve)"
-Nominatim geocoder returned 0 results for query "Clouded Leopard National Park"
-Nominatim geocoder returned 0 results for query "Govind Pashu Vihar Wildlife Sanctuary"
-Nominatim could not geocode query "Kanha National Park" to polygonal boundaries
-Nominatim could not geocode query "Kaziranga National Park" to polygonal boundaries
-Nominatim geocoder returned 0 results for query "Mukurthi National Park"
-Nominatim geocoder returned 0 results for query "Periyar National Park"
-Nominatim geocoder returned 0 results for query "Sundarbans National Park"
